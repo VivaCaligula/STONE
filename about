@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>About Stone</title>
+<!--
+                      ____ ______    __   ___  __  ____ ____ __                       
+                     /--- /''''''\--/''|-/''/-/''\-\''|-|''/---\                      
+                     |\   \  \___/ /  /|/  / / /\ \ \ \ / /   /|                      
+                     | >-__\  \ - /  /|/  /-/  __  \-\ V / --< |                      
+                     |/ /   \  \ /  / |  / /  /  | / / ^ \    \|                      
+                     \--\______//__/--|_/-/__/---|/-/_/-\_\----/                      
+                      \===----- Created & Uploaded by -----===/                       
+                        \==--- Snax, aka Viva Caligula ---==/                         
+                          \=---     snax@snerx.com    ---=/                           
+                             \-------------------------/                              
+======================================================================================
+               About Stone  ::  Version - 1.1.9  ::  Updated 01/18/17
+-->
+<style type="text/css">
+body {
+	background-color: #323232;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+body,td,th {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 12px;
+	color: #E6E6E6;
+}
+a {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 12px;
+	text-decoration: none;
+}
+a:link {
+	color: #FFC894;
+	text-decoration: none;
+}
+a:visited {
+	color: #FFC894;
+	text-decoration: none;
+}
+a:hover {
+	color: #808080;
+	text-decoration: none;
+}
+a:active {
+	color: #FFC894;
+	text-decoration: none;
+}
+div.TL_fixed {
+    position: fixed;
+    top: 4px;
+    left: 0%;
+}
+div.TR_fixed {
+    position: fixed;
+    top: 10px;
+    right: 0%;
+}
+div.BL_fixed {
+    position: fixed;
+    bottom: 10px;
+    left: 0%;
+}
+div.BR_fixed {
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+}
+</style>
+<!--
+
+-->
+</head>
+<pre style="font-family:Lucida Console,Monaco,monospace;font-size:12px;">
+<div id="top_left" class="TL_fixed"> <iframe src="https://free.timeanddate.com/clock/i483n7f2/n137/fn12/fs12/fc777/tct/pct/ahl/tt0/tw0/tm2/td1/th2/ts1/ta1/tb1" frameborder="0" width="170" height="12" allowTransparency="true"></iframe>
+ <font color="#737373">Your IP: <script type="application/javascript">function getip(json){document.write(json);}</script><script type="application/javascript" src="https://snerx.com/ip.php?callback=getip"> </script></font></div><body><div id="middle" align="center" style="width:100%;"><font color="#A4A4A4">
+
+
+
+
+
+<div id="logo" class="logo" align="center" style="width:68px;height:140px;"><img src="https://snerx.com/ImageShit/pixel_logo_2.gif" alt="logo" height="140" width="68" /></div>
+</font>The Philosopher Stone -- Version 0.0.6 -- Updated 01/18/17<font color="#A4A4A4">
+
+<a href="https://snerx.com">Back</a> to Snerx -- Contact us on our <a href="https://discord.gg/SVnbsnK" target="_blank">official Discord</a>.
+
+======================================================================================
+
+
+</font>:: English to Formal Logic Converter ::<font color="#A4A4A4">
+
+The Philosopher Stone is web & standalone software designed to convert human aesthetic
+language into symbolic logic, specifically sententious logic.                         
+
+Some very crude and old software for parts of this already exist, but they don't have 
+half the functionality nor is the current functionality very robust; for example-     
+
+<a href="https://www.umsu.de/logik/trees/" target="_blank">Tree Proof Generator</a> -- <a href="http://philosophy.lander.edu/~jsaetti/ToolBox/dojoCateg/categorical.html" target="_blank">Diagraming</a> -- <a href="http://bach.istc.kobe-u.ac.jp/llprover/" target="_blank">Linear Logic Prover</a> -- <a href="https://logik.phl.univie.ac.at/~chris/gateway/formular-uk.html" target="_blank">Logic Soft</a>
+
+The Philosopher Stone can be used in academia, specifically in philosophy, law, and   
+most of the humanities for tests of validity and integrity of argumentation, as well  
+as professional law and government as an aid in law writing and analysis. Specific to 
+courtrooms, Stone can take all evidence and arguments, generate probability charts,   
+and output verdicts on cases without room for subjectivity (like a jury). This can    
+also be used as a gimmick when getting into debates online with friends or strangers  
+over forums, where you can copy and paste what people post and see if it withstands   
+logical consistency. This means any time someone says something insane, you can show  
+them the readouts from Stone and say, "You're objectively wrong, here's why." That    
+makes this product a social tool as well as a strong academic one, akin to software   
+like <a href="https://www.wolframalpha.com/" target="_blank">Wolfram Alpha</a>.                                                                   
+
+</font></div></div></body></html>

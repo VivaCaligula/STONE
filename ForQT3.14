@@ -1,0 +1,48 @@
+ ___________________
+{ FINESSE THE ALPHA }
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+- Question marks (?) denote sentences that are not meant as propositions and so sentences that end in '?' should be symbolically converted but not given a premise header.
+    -> Instead of "P1:" it would get a '?' before the statement.
+- When you click the expand button, it turns 'P1:' into 'p1'. Expanding text should keep the same formating.
+- Commas to newline -_-;
+    -> This is my bad, but commas shouldn't create a newline or new premise, for now just leave the comma, as we'll need it for formating the parenthesis.
+- If the input field is empty and you click convert, it outputs "P1:" with no other text. It should output nothing at all.
+- Pseudo validation checking; if a letter appears in the conclusion that doesn't appear in any of the premises, it should automatically flag as invalid.
+- When these are all finished, the alpha will be as done as it can possibly be and we'll start doing stuff in the beta, but I want this done first.
+ :D
+
+ ______________
+{ FOR THE BETA }
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+- 'IF/THEN' & 'EITHER/OR' scanning (looking for word pairs)
+    -> If/Thens must be paired, for each pair, remove the 'if' and symbolize the 'then'; if unpaired, symbolize the 'if' but switch clause sides (X ⊃ Y becomes Y ⊃ X).
+    -> Either/Ors turn 'OR' from being inclusive to being exclusive; remove the 'either' and symbolize the or but the symbol will be ⊕ instead of ∨.
+- 'not' shouldn't separate a clause, but be added in front of it.
+- OR/XOR switch dropdown on hover; this is a visual thing and after we talk about it, I can probably just do it in CSS and have an object flag that the javascript can get.
+- Scan for "n't" at the end of words (will have to look in non-whole words) and convert it into the 'not' operator.
+- Parentheticals for order of operations (will need to talk about this).
+- Truth tables. This will be a whole thing, but it's basically just generating an array based on preset values assigned for operators and so it shouldn't be too terrible.
+
+ _____________________
+{ FOR THE FINAL BUILD }
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+- Database integration
+    -> Each word not converted into operators will be checked for their 'family' word and converted into that
+    -> Words that are not nouns, adjectives, or verbs (proper) will be removed entirely
+    -> adjectives and verbs that do not directly modify a noun (does not directly precede the word) will be removed entirely
+    -> remaining modifying verbs and nouns will be concatenated with the noun they modify
+    -> remaining nouns & noun-hybrids will be assessed
+
+
+
+:: Notes to myself about the dictionary ::
+
+- iff split from equivalence symbol
+- how to handle "If X and if Y, then Z"?
+- option to make all if/then statements biconditional by default (iff)
+- option to make inclusive or exclusive or by default (xor)
+- convert iff before and to avoid "and only if" operators doubling up
+- However, nevertheless, still, but still, although, even though, and also, not only-but also, while, despite the fact that, moreover: all equivalent to AND
+- Or else, just in case & just in the event that, as additional dictionary terms for exclusive or and iff
+- 'unless' treated as not X iff Y? or as not iff?
+- "only if X will Y" will add to dictionary for 'then'; 'provided' add for iff
